@@ -4,7 +4,7 @@ import { GoTriangleDown } from "@react-icons/all-files/go/GoTriangleDown";
 import { GrReactjs } from "@react-icons/all-files/gr/GrReactjs";
 import { IoLogoElectron } from "@react-icons/all-files/io5/IoLogoElectron";
 import { IoLogoNodejs } from "@react-icons/all-files/io5/IoLogoNodejs";
-import { IoLogoMarkdown } from "@react-icons/all-files/io5/IoLogoMarkdown";
+import { FaRobot } from "@react-icons/all-files/fa/FaRobot";
 import { SiNextDotJs } from "@react-icons/all-files/si/SiNextDotJs";
 import { motion } from "framer-motion";
 import { Fragment, useState } from "react";
@@ -109,12 +109,12 @@ export default function Projects() {
             </div>
             <div className="flex items-center gap-6">
               <button
-                className={`flex items-center gap-2.5 cursor-pointer transition-colors hover:text-white w-full ${filter === "Markdown" ? "text-white" : "text-[#607B96]"
+                className={`flex items-center gap-2.5 cursor-pointer transition-colors hover:text-white w-full ${filter === "AI" ? "text-white" : "text-[#607B96]"
                   }`}
-                onClick={() => setFilter("Markdown")}
+                onClick={() => setFilter("AI")}
               >
-                <IoLogoMarkdown />
-                <span>Markdown</span>
+                <FaRobot />
+                <span>AI</span>
               </button>
             </div>
           </Transition>
@@ -164,8 +164,8 @@ const Card = ({ data }) => {
     if (value.includes("NodeJS")) {
       return <IoLogoNodejs />;
     }
-    if (value.includes("Markdown")) {
-      return <IoLogoMarkdown />;
+    if (value.includes("AI")) {
+      return <FaRobot />;
     }
   }
 

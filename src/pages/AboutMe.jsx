@@ -159,7 +159,7 @@ function Work({ closeWork }) {
         "frameworks": [
           "NextJS",
           "ReactNative",
-          "Markdown",
+          "AI",
           "Antd",
           "TailwindCSS",
           "NodeJS",
