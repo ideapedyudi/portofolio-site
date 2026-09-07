@@ -1,5 +1,12 @@
 [
   {
+    "title": "Agent Toolkit",
+    "description": "A Toolkit for coding agents: shape reusable commands, skills, and plugins you can use across any agent. Works with any coding agent that supports custom skills, slash commands, or plugins (for example: OpenCode, Claude Code, Cursor, Codex, Windsurf, Continue, Aider, and similar tools).",
+    "technology": "Markdown",
+    "image": "/projects/amira.jpeg",
+    "link": null
+  },
+  {
     "title": "Primecaptcha",
     "description": "A lightweight, dependency-free CAPTCHA library for Node.js that generates secure, distortion-resistant text and image-based captchas with customizable appearance and validation.",
     "technology": "NodeJS",
